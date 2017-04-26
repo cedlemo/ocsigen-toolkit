@@ -10,6 +10,7 @@ install: [ make "install" ]
 remove: [ make "uninstall" ]
 depends: [
   "eliom" {>= "6.0"}
+  "ocamlnet"
   "calendar"
 ]
 available: [ ocaml-version >= "4.02" ]
